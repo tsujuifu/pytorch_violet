@@ -36,7 +36,7 @@ python extract_tsv.py --path=msrvtt # output: msrvtt.tsv, msrvtt.lineidx
 There are [parital examples](https://github.com/tsujuifu/pytorch_violet/tree/main/_data) (WebVid2.5M, CC3M, TGIF-Action, MSVD-QA, and MSRVTT-Retrieval) to help formulate the input data.
 
 ### Pretraining
-Put [pretrained VT](https://drive.google.com/file/d/1B1tkA9EnlQlK72xB8liz_WRo7WTEpJDt/view?usp=sharing) in [\_snapshot](https://github.com/tsujuifu/pytorch_violet/tree/main/_snapshot). This script pretrains on both video ([WebVid2.5M](https://m-bain.github.io/webvid-dataset)) and image ([CC3M](https://github.com/google-research-datasets/conceptual-captions)) data via **single-node multi-gpu** distributed training.
+Put [pretrained VT](https://drive.google.com/file/d/1B1tkA9EnlQlK72xB8liz_WRo7WTEpJDt/view?usp=sharing) in [./\_snapshot](https://github.com/tsujuifu/pytorch_violet/tree/main/_snapshot). This script pretrains on both video ([WebVid2.5M](https://m-bain.github.io/webvid-dataset)) and image ([CC3M](https://github.com/google-research-datasets/conceptual-captions)) data via **single-node multi-gpu** distributed training.
 ```
 CUDA_VISIBLE_DEVICES='0,1,2,3' python -m torch.distributed.launch --nproc_per_node=4 --master_port=7122 main_pretrain.py
 ```
