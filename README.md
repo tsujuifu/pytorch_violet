@@ -20,7 +20,7 @@ This code is implemented under **Python 3.8**, [PyTorch 1.7](https://pypi.org/pr
 
 ## Usage
 ### Data preprocessing
-As using outer datasets, we provide [preprocessing tools](https://github.com/tsujuifu/pytorch_violet/tree/main/_tools) to extract **sparse-sampled video frames** into our compressed format.
+As using outer datasets (cannot be shared by us), we provide [preprocessing tools](https://github.com/tsujuifu/pytorch_violet/tree/main/_tools) to extract **sparse-sampled video frames** into our compressed format.
 ```
 cd _tools
 
