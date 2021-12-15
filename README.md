@@ -25,13 +25,13 @@ As using outer datasets (cannot be shared by us), we provide [preprocessing tool
 cd _tools
 
 # We use 4 frames during pretraining and 5 frames for downstream tasks
-python extract_video-frame.py --path=msrvtt --sample=5 # msrvtt.pkl
+python extract_video-frame.py --path=msrvtt --sample=5 # output: msrvtt.pkl
 
 # We use DALL-E to extract VQ tokens for MVM pretraining
-python extract_vq.py --path=msrvtt --frame=224 # msrvtt_vq.pkl
+python extract_vq.py --path=msrvtt --frame=224 # output: msrvtt_vq.pkl
 
 # We adopt file.seek() instead of loading entire data to reduce the memory cost during distributed pretraining
-python extract_tsv.py --path=msrvtt # msrvtt.tsv, msrvtt.lineidx
+python extract_tsv.py --path=msrvtt # output: msrvtt.tsv, msrvtt.lineidx
 ```
 There are [examples](https://github.com/tsujuifu/pytorch_violet/tree/main/_data) (WebVid2.5M, CC3M, TGIF-Action, MSVD-QA, and MSRVTT-Retrieval) to help formulate the input data.
 
