@@ -7,7 +7,7 @@ class EncImg(T.nn.Module):
         super().__init__()
         
         self.swin = SwinTransformer3D()
-        self.swin.load_state_dict(T.load('./_data/ckpt_video-swin.pt'))
+        self.swin.load_state_dict(T.load('./_snapshot/ckpt_video-swin.pt'))
         
         self.emb_cls = T.nn.Parameter(0.02*T.randn(1, 1, 1, 768))
         self.emb_pos = T.nn.Parameter(0.02*T.randn(1, 1, 1+14**2, 768))
