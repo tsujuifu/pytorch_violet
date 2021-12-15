@@ -33,7 +33,7 @@ python extract_vq.py --path=msrvtt --frame=224 # output: msrvtt_vq.pkl
 # We adopt file.seek() instead of loading entire data to reduce the memory cost during distributed pretraining
 python extract_tsv.py --path=msrvtt # output: msrvtt.tsv, msrvtt.lineidx
 ```
-There are [examples](https://github.com/tsujuifu/pytorch_violet/tree/main/_data) (WebVid2.5M, CC3M, TGIF-Action, MSVD-QA, and MSRVTT-Retrieval) to help formulate the input data.
+There are [parital data](https://github.com/tsujuifu/pytorch_violet/tree/main/_data) (WebVid2.5M, CC3M, TGIF-Action, MSVD-QA, and MSRVTT-Retrieval) to help formulate the input data.
 
 ### Pretraining
 Put [pretrained VT](https://drive.google.com/file/d/1B1tkA9EnlQlK72xB8liz_WRo7WTEpJDt/view?usp=sharing) in [\_snapshot](https://github.com/tsujuifu/pytorch_violet/tree/main/_snapshot). This script pretrains on both video ([WebVid2.5M](https://m-bain.github.io/webvid-dataset)) and image ([CC3M](https://github.com/google-research-datasets/conceptual-captions)) data via **single-node multi-gpu** distributed training.
