@@ -1,0 +1,13 @@
+{
+    "type": "pretrain", 
+    
+    "size_img": 224,
+    "size_txt": 32,
+    
+    "size_epoch": 5, 
+    "size_batch": 12, 
+    "lr": 2e-5, 
+    "decay": 1e-3, 
+    
+    "path_ckpt": ""
+}

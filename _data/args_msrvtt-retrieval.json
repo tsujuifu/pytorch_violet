@@ -1,0 +1,16 @@
+{
+    "type": "retrieval",
+    
+    "dataset": "msrvtt", 
+    "task": "msrvtt-retrieval", 
+    
+    "size_img": 224,
+    "size_txt": 25,
+    
+    "size_epoch": 20, 
+    "size_batch": 6, 
+    "lr": 1.2e-5, 
+    "decay": 1e-3, 
+    
+    "path_ckpt": "./_data/ckpt_violet_pretrain.pt"
+}

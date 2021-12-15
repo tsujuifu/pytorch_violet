@@ -1,0 +1,17 @@
+{
+    "type": "qaoe",
+    
+    "dataset": "msvd", 
+    "task": "msvd-qa", 
+    
+    "size_img": 224,
+    "size_txt": 25,
+    "size_vocab": 1000,
+    
+    "size_epoch": 20, 
+    "size_batch": 10, 
+    "lr": 1.2e-5, 
+    "decay": 1e-3, 
+    
+    "path_ckpt": "./_data/ckpt_violet_pretrain.pt"
+}
