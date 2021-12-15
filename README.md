@@ -7,7 +7,7 @@ VIOLET is an implementation of <br>
 Tsu-Jui Fu, Linjie Li, Zhe Gan, Kevin Lin, William Yang Wang, Lijuan Wang, and Zicheng Liu
 
 ## Requirements
-This code is implemented under **Python 3.8** and [PyTorch 1.7](https://pytorch.org). <br>
+This code is implemented under **Python 3.8**, [PyTorch 1.7](https://pypi.org/project/torch/1.7.0/), and [Torchvision 0.8](https://pypi.org/project/torchvision/0.8.0/). <br>
 + [av](https://pypi.org/project/av/), [tqdm](https://pypi.org/project/tqdm/), [cv2](https://pypi.org/project/opencv-python/)
 + [transformers](https://pypi.org/project/transformers/)
 
