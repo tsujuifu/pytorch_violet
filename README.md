@@ -51,7 +51,7 @@ CUDA_VISIBLE_DEVICES='0,1,2,3' python main_qamc.py _data/args_tgif-action.json
 ```
 CUDA_VISIBLE_DEVICES='0,1,2,3' python main_qaoe.py _data/args_msvd-qa.json
 ```
-+ Text-to-Video Retrieval ([MSRVTT](https://github.com/albanie/collaborative-experts/tree/master/misc/datasets/msrvtt), [DiDeMo](https://github.com/LisaAnne/TemporalLanguageRelease), [YouCook2](http://youcook2.eecs.umich.edu/), and [LSMDC](https://github.com/yj-yu/lsmdc))
++ Text-to-Video Retrieval ([MSRVTT](https://github.com/albanie/collaborative-experts/tree/master/misc/datasets/msrvtt), [DiDeMo](https://github.com/LisaAnne/TemporalLanguageRelease), [YouCook2](http://youcook2.eecs.umich.edu), and [LSMDC](https://github.com/yj-yu/lsmdc))
 ```
 CUDA_VISIBLE_DEVICES='0,1,2,3' python main_retrieval.py _data/args_msrvtt-retrieval.json
 CUDA_VISIBLE_DEVICES='0,1,2,3' python eval_retrieval.py _data/args_msrvtt-retrieval.json
