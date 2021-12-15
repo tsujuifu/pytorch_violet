@@ -1,6 +1,5 @@
 
 import argparse, pickle
-
 from tqdm import tqdm
 
 def get_args():
