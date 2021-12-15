@@ -43,15 +43,15 @@ CUDA_VISIBLE_DEVICES='0,1,2,3' python -m torch.distributed.launch --nproc_per_no
 [Here](https://drive.google.com/file/d/1RLbthdRIflxCFjRTcVV5jQJGP30_lNfg/view?usp=sharing) is our best pretrained checkpoint ([YT180M](https://github.com/rowanz/merlot)+[WebVid2.5M](https://m-bain.github.io/webvid-dataset)+[CC3M](https://github.com/google-research-datasets/conceptual-captions)).
 
 ### Downstream
-+ Multiple-Choice Question Answering (TGIF-Action, TGIF-Transition, MSRVTT-MC, and LSMDC-MC)
++ Multiple-Choice Question Answering ([TGIF-Action](https://github.com/YunseokJANG/tgif-qa), [TGIF-Transition](https://github.com/YunseokJANG/tgif-qa), [MSRVTT-MC](https://github.com/albanie/collaborative-experts/tree/master/misc/datasets/msrvtt), and [LSMDC-MC](https://github.com/yj-yu/lsmdc))
 ```
 CUDA_VISIBLE_DEVICES='0,1,2,3' python main_qamc.py _data/args_tgif-action.json
 ```
-+ Open-Ended Question Answering (TGIF-Frame, MSRVTT-QA, LSMDC-FiB, and MSVD-QA)
++ Open-Ended Question Answering ([TGIF-Frame](https://github.com/YunseokJANG/tgif-qa), [MSRVTT-QA](https://github.com/xudejing/video-question-answering), [LSMDC-FiB](https://github.com/yj-yu/lsmdc), and [MSVD-QA](https://github.com/xudejing/video-question-answering))
 ```
 CUDA_VISIBLE_DEVICES='0,1,2,3' python main_qaoe.py _data/args_msvd-qa.json
 ```
-+ Text-to-Video Retrieval (MSRVTT, Didemo, YouCook2, and LSMDC)
++ Text-to-Video Retrieval ([MSRVTT](https://github.com/albanie/collaborative-experts/tree/master/misc/datasets/msrvtt), [DiDeMo](https://github.com/LisaAnne/TemporalLanguageRelease), [YouCook2](http://youcook2.eecs.umich.edu/), and [LSMDC](https://github.com/yj-yu/lsmdc))
 ```
 CUDA_VISIBLE_DEVICES='0,1,2,3' python main_retrieval.py _data/args_msrvtt-retrieval.json
 CUDA_VISIBLE_DEVICES='0,1,2,3' python eval_retrieval.py _data/args_msrvtt-retrieval.json
