@@ -27,7 +27,8 @@ cd _tools
 # We use 4 frames during pretraining and 5 frames for downstream tasks
 python extract_video-frame.py --path=msrvtt --sample=5 # output: msrvtt.pkl
 
-# We use DALL-E to extract VQ tokens for MVM pretraining (download https://cdn.openai.com/dall-e/encoder.pkl first)
+# We use DALL-E to extract VQ tokens for MVM pretraining
+wget https://cdn.openai.com/dall-e/encoder.pkl # trained dall-e encoder
 python extract_vq.py --path=msrvtt --frame=224 # output: msrvtt_vq.pkl
 
 # We adopt file.seek() instead of loading entire data to reduce the memory cost during distributed pretraining
