@@ -162,7 +162,7 @@ class Agent_Pretrain(Agent_Base):
             cov = T.zeros(_T, _h, _w)
             for i_t, i_h, i_w in mask_mvm:
                 cov[i_t][i_h][i_w] = 1.0
-                p = (1+_h*_w)*i_t + i_h*_w + i_w
+                p = (1+_h*_w)*i_t + 1+i_h*_w + i_w
                 ans_mvm[i][p] = vq[i][p]
             cov = cov.unsqueeze(1).unsqueeze(3).unsqueeze(5).expand([-1, 3, -1, 32, -1, 32])
             cov = cov.flatten(2, 3).flatten(3, 4)
