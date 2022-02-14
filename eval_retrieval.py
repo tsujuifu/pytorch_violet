@@ -70,6 +70,7 @@ if __name__=='__main__':
     
     model = T.nn.DataParallel(VIOLET_Retrieval().cuda())
     model.module.load_ckpt(args['path_ckpt'])
+    model.eval()
     
     for split in ['val', 'test']:
         dl = T.utils.data.DataLoader(Dataset_Retrieval(args, split), 
