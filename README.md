@@ -1,5 +1,5 @@
 # VIOLET: End-to-End Video-Language Transformers with Masked Visual-token Modeling
-A **PyTorch** implementation of [VIOLET](https://arxiv.org/pdf/2111.12681.pdf)
+A **PyTorch** implementation of [VIOLET](https://tsujuifu.github.io/pubs/arxiv_violet.pdf)
 
 <img src='_imgs/intro.png' width='50%' />
 
