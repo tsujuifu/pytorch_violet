@@ -62,7 +62,7 @@ We also provide all [trained downstream checkpoints](https://drive.google.com/dr
 ## Citation
 ```
 @inproceedings{fu2021violet, 
-  author = {Tsu-Jui Fu, Linjie Li, Zhe Gan, Kevin Lin, William Yang Wang, Lijuan Wang, and Zicheng Liu}, 
+  author = {Tsu-Jui Fu and Linjie Li and Zhe Gan and Kevin Lin and William Yang Wang and Lijuan Wang and Zicheng Liu}, 
   title = {VIOLET: End-to-End Video-Language Transformers with Masked Visual-token Modeling}, 
   booktitle = {arXiv:2111.1268}, 
   year = {2021} 
