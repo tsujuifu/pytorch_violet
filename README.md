@@ -61,6 +61,14 @@ We also provide all [trained downstream checkpoints](https://drive.google.com/dr
 
 ## Citation
 ```
+@inproceedings{fu2022empirical-mvm, 
+  author = {Tsu-Jui Fu* and Linjie Li* and Zhe Gan and Kevin Lin and William Yang Wang and Lijuan Wang and Zicheng Liu}, 
+  title = {An Empirical Study of End-to-End Video-Language Transformers with Masked Visual Modeling}, 
+  booktitle = {arXiv:2209.01540}, 
+  year = {2022} 
+}
+```
+```
 @inproceedings{fu2021violet, 
   author = {Tsu-Jui Fu and Linjie Li and Zhe Gan and Kevin Lin and William Yang Wang and Lijuan Wang and Zicheng Liu}, 
   title = {VIOLET: End-to-End Video-Language Transformers with Masked Visual-token Modeling}, 
