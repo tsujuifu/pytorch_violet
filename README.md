@@ -57,7 +57,7 @@ CUDA_VISIBLE_DEVICES='0,1,2,3' python main_qaoe.py _data/args_msvd-qa.json
 CUDA_VISIBLE_DEVICES='0,1,2,3' python main_retrieval.py _data/args_msrvtt-retrieval.json
 CUDA_VISIBLE_DEVICES='0,1,2,3' python eval_retrieval.py _data/args_msrvtt-retrieval.json
 ```
-We also provide all [downstream datasets](https://drive.google.com/drive/u/2/folders/1uEoB-aXjWG1cf6nKWJ0TH4HX30CJs1TK) and [trained checkpoints](https://drive.google.com/drive/u/1/folders/1cQ3O_9lxhjU_H6hpdyEb4GMjjb714wSo).
+We also provide all [downstream datasets](https://drive.google.com/drive/u/2/folders/1uEoB-aXjWG1cf6nKWJ0TH4HX30CJs1TK) and [trained checkpoints](https://drive.google.com/drive/u/2/folders/1au5q_pKxVZ8D-2N_2flVsGwlthpFtYRo).
 
 ## Citation
 ```
