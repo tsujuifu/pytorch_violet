@@ -41,7 +41,7 @@ Put [pretrained VT](https://drive.google.com/file/d/1B1tkA9EnlQlK72xB8liz_WRo7WT
 ```
 CUDA_VISIBLE_DEVICES='0,1,2,3' python -m torch.distributed.launch --nproc_per_node=4 --master_port=7122 main_pretrain.py
 ```
-[Here](https://drive.google.com/file/d/1RLbthdRIflxCFjRTcVV5jQJGP30_lNfg/view?usp=sharing) is our best pretrained checkpoint ([YT180M](https://github.com/rowanz/merlot)+[WebVid2.5M](https://m-bain.github.io/webvid-dataset)+[CC3M](https://github.com/google-research-datasets/conceptual-captions)).
+We have our [used datasets](https://drive.google.com/drive/u/2/folders/1PCFBPaIS_2UhFsv7n9L5CYS1wg_dfQF2) and the best [pretrained checkpoint](https://drive.google.com/file/d/1RLbthdRIflxCFjRTcVV5jQJGP30_lNfg/view?usp=sharing) ([YT180M](https://github.com/rowanz/merlot)+[WebVid2.5M](https://m-bain.github.io/webvid-dataset)+[CC3M](https://github.com/google-research-datasets/conceptual-captions)).
 
 ### Downstream
 + Multiple-Choice Question Answering ([TGIF-Action](https://github.com/YunseokJANG/tgif-qa), [TGIF-Transition](https://github.com/YunseokJANG/tgif-qa), [MSRVTT-MC](https://github.com/albanie/collaborative-experts/tree/master/misc/datasets/msrvtt), and [LSMDC-MC](https://github.com/yj-yu/lsmdc))
