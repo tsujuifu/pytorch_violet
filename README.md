@@ -61,11 +61,11 @@ We also provide all [downstream datasets](https://drive.google.com/drive/u/2/fol
 
 ## Citation
 ```
-@inproceedings{fu2022empirical-mvm, 
+@inproceedings{fu2023empirical-mvm, 
   author = {Tsu-Jui Fu* and Linjie Li* and Zhe Gan and Kevin Lin and William Yang Wang and Lijuan Wang and Zicheng Liu}, 
   title = {An Empirical Study of End-to-End Video-Language Transformers with Masked Visual Modeling}, 
-  booktitle = {arXiv:2209.01540}, 
-  year = {2022} 
+  booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  year = {2023} 
 }
 ```
 ```
