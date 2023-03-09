@@ -1,3 +1,6 @@
+## [**2023/03/09 Update**] VIOLETv2
+We have released our empirical study of masked visual modeling for VidL learning as [VIOLETv2](https://github.com/tsujuifu/pytorch_empirical-mvm).
+
 # VIOLET: End-to-End Video-Language Transformers with Masked Visual-token Modeling
 A **PyTorch** implementation of [VIOLET](https://tsujuifu.github.io/pubs/arxiv_violet.pdf)
 
