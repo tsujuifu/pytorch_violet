@@ -66,7 +66,7 @@ We also provide all [downstream datasets](https://drive.google.com/drive/u/2/fol
 ```
 @inproceedings{fu2023empirical-mvm, 
   author = {Tsu-Jui Fu* and Linjie Li* and Zhe Gan and Kevin Lin and William Yang Wang and Lijuan Wang and Zicheng Liu}, 
-  title = {An Empirical Study of End-to-End Video-Language Transformers with Masked Visual Modeling}, 
+  title = {{An Empirical Study of End-to-End Video-Language Transformers with Masked Visual Modeling}}, 
   booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR)}, 
   year = {2023} 
 }
@@ -74,7 +74,7 @@ We also provide all [downstream datasets](https://drive.google.com/drive/u/2/fol
 ```
 @inproceedings{fu2021violet, 
   author = {Tsu-Jui Fu and Linjie Li and Zhe Gan and Kevin Lin and William Yang Wang and Lijuan Wang and Zicheng Liu}, 
-  title = {VIOLET: End-to-End Video-Language Transformers with Masked Visual-token Modeling}, 
+  title = {{VIOLET: End-to-End Video-Language Transformers with Masked Visual-token Modeling}}, 
   booktitle = {arXiv:2111.1268}, 
   year = {2021} 
 }
