@@ -9,7 +9,7 @@ A **PyTorch** implementation of [VIOLET](https://tsujuifu.github.io/pubs/arxiv_v
 ## Overview
 VIOLET is an implementation of <br>
 "[VIOLET: End-to-End Video-Language Transformers with Masked Visual-token Modeling](https://tsujuifu.github.io/pubs/arxiv_violet.pdf)" <br>
-[Tsu-Jui Fu](https://tsujuifu.github.io), [Linjie Li](https://scholar.google.com/citations?user=WR875gYAAAAJ), [Zhe Gan](https://zhegan27.github.io), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [William Yang Wang](https://sites.cs.ucsb.edu/~william), [Lijuan Wang](https://scholar.google.com/citations?user=cDcWXuIAAAAJ), and [Zicheng Liu](https://scholar.google.com/citations?user=bkALdvsAAAAJ)
+[Tsu-Jui Fu](https://scholar.google.com/citations?user=7QRDcC0AAAAJ), [Linjie Li](https://scholar.google.com/citations?user=WR875gYAAAAJ), [Zhe Gan](https://scholar.google.com/citations?user=E64XWyMAAAAJ), [Kevin Lin](https://scholar.google.com/citations?user=LKSy1kwAAAAJ), [William Yang Wang](https://scholar.google.com/citations?user=gf8Ms_8AAAAJ), [Lijuan Wang](https://scholar.google.com/citations?user=cDcWXuIAAAAJ), and [Zicheng Liu](https://scholar.google.com/citations?user=bkALdvsAAAAJ)
 
 <img src='_imgs/violet.png' width='80%' />
 
